@@ -39,29 +39,49 @@ You'll also find some tips and links to documentations that will help you comple
 ## 💭 Reflection and Self Assessment
 
 **I learned:** (repeat as needed)
-- .
+- How to handle and debug TypeError and AttributeError related to data types and object misnaming.
+
+- The importance of checking DataFrame column types before performing transformations like scaling.
+
+- How to properly use StandardScaler to normalize data for machine learning preparation.
+
+- How function name conflicts can interfere with variable assignments and break the code.
 
 **I struggled with:** (repeat as needed)
-- .
+- Resolving an error caused by a DataFrame accidentally being overwritten as a function.
+
+- Understanding the exact cause of the error message related to float() and non-numeric columns.
+
+- Identifying and removing non-numeric columns before applying normalization..
 
 **I need the instructor to help me with:** (repeat as needed)
-- .
+- Best practices to avoid naming conflicts between functions and variables in large notebooks.
+
+- Clarification on when to use normalization versus standardization depending on the type of data and model..
 
 **How long did it take you to complete this assignment? and reflect on that**
-[ ] hours.
+[ 2 ] hours.
 
 **If I were to do this assignment again, I would:** (repeat as needed)
-- .
+- Be more careful with variable naming to avoid overwriting objects.
 
-**💯 Self Grade:** For this assignment, based on my work and my reflections I should get [ ] out of 20.
+- Check data types and missing values earlier in the pipeline.
+
+- Document each step of the process in the notebook to reduce confusion during troubleshooting..
+
+**💯 Self Grade:** For this assignment, based on my work and my reflections I should get [ 20 ] out of 20.
 
 --------------------
 ## 📚 References and Citations
 **I used the following links, books, and other resources in my work:** (repeat as needed)
-- .
+- scikit-learn StandardScaler documentation
+
+- Pandas get_dummies() documentation
+
+- StackOverflow posts related to TypeError: float() argument must be a string or a real number while using StandardScaler .
   
-**I received help from the following people:** (repeat as needed)
-- .
+**I received help from the following ppeole:** (repeat as needed)
+- None .
 
 ---
 ## Copyrights and License
